@@ -7,5 +7,5 @@ categoriesItems.forEach((item) => {
   const categoryName = item.querySelector("h2").textContent;
   const categoryItems = item.querySelectorAll("li").length;
 
-  console.log(`Category: ${categoryName} \nNumber: ${categoryItems}`);
+  console.log(`Category: ${categoryName} \n Number: ${categoryItems}`);
 });
