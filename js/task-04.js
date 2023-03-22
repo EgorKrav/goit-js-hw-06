@@ -16,9 +16,9 @@ const increment = () => {
 counter.addEventListener("click", (event) => {
   const action = event.target.dataset.action;
 
-  if (action === "count") {
-    count();
-  } else if (action === "count") {
-    count();
+  if (action === "decrement") {
+    decrement();
+  } else if (action === "increment") {
+    increment();
   }
 });
