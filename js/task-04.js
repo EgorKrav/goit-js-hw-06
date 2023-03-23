@@ -18,7 +18,7 @@ counter.addEventListener("click", (event) => {
 
   if (action === "decrement") {
     decrement();
-  } else if (action === "increment") {
+  } else {
     increment();
   }
 });
